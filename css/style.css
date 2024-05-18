@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.brand {
+    font-family: "Madimi One", sans-serif;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #F1FAFF;
+    scroll-behavior: smooth;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+
+.links ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+.links  ul li {
+    list-style: none;
+  }
+  
+.links  ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+.links  ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+.links  ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+.links  ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+  }
+  
+.links  ul li:nth-child(2) a:hover .fab {
+    color: #00aced;
+  }
+  
+.links  ul li:nth-child(3) a:hover .fab {
+    color: #dd4b39;
+  }
+  
+.links  ul li:nth-child(4) a:hover .fab {
+    color: #007bb6;
+  }
+  
+.links ul li:nth-child(5) a:hover .fab {
+    color: #e4405f;
+  }
+
+
+.about-me {
+  margin-top: 15%;
+}
+
+
+.ml-5 {
+  margin-left: 20px;
+}
+
+.card-special {
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 5px 5px gainsboro;
+}
