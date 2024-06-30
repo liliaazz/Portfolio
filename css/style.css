@@ -1,13 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Pacifico&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+#git:hover{
+  color: orange;
+}
+
+#css:hover {
+  color: #00aced;
+}
+
+#html:hover {
+  color: orange;
+}
+
+#bootstrap:hover {
+  color: rgb(132, 70, 158);
+}
+
+#js:hover {
+  color: orange;
+}
+
+#kotlin:hover {
+  color: #0d91d6;
+}
+
+.nav-link {
+  color: white;
+}
+
+#tailwind:hover {
+  color: aqua;
+}
+
 .brand {
     font-family: "Madimi One", sans-serif;
 }
+
+.mr-2 {
+  margin-right: 5px;
+}
+
 
 body {
     font-family: "Rubik", sans-serif;
     background-color: #F1FAFF;
     scroll-behavior: smooth;
+    background-image: url(bg-tablet-pattern.svg);
+    background-repeat: repeat-x;
+
 }
 
 .ml-auto {
@@ -50,7 +90,7 @@ body {
   }
   
 .links  ul li a:hover {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(184, 184, 184, 0.3);
     text-decoration:none;
   }
   
@@ -62,29 +102,10 @@ body {
     border-radius: 50%;
     line-height: calc(60px - 12px);
     font-size:24px;
-    color: #262626;
+    color: #ffffff;
     transition: .5s;
   }
   
-.links  ul li:nth-child(1) a:hover .fab {
-    color: #3b5998;
-  }
-  
-.links  ul li:nth-child(2) a:hover .fab {
-    color: #00aced;
-  }
-  
-.links  ul li:nth-child(3) a:hover .fab {
-    color: #dd4b39;
-  }
-  
-.links  ul li:nth-child(4) a:hover .fab {
-    color: #007bb6;
-  }
-  
-.links ul li:nth-child(5) a:hover .fab {
-    color: #e4405f;
-  }
 
 
 .about-me {
@@ -97,8 +118,36 @@ body {
 }
 
 .card-special {
-  border: 1px solid gray;
   padding: 15px;
-  border-radius: 25px;
-  box-shadow: 5px 5px gainsboro;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 8px 8px 0px -3px, rgb(0, 0, 0) 8px 8px;
+  transition: transform 0.3s ease;
+
 }
+
+.social-media-card {
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px inset, rgb(0, 0, 0) 4px 4px 0px -3px, rgb(255, 255, 255) 4px 4px;
+  transition: transform 0.1s ease;
+  width: 120px;
+  padding: 20px 7px 10px 7px;
+}
+
+.social-media-card:hover {
+  transform: translateX(10px);
+
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px inset;
+}
+
+.card-special:hover{
+  transform: translateX(10px);
+
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset;
+}
+
+
+img {
+  width: -webkit-fill-available;
+
+}
+
+
