@@ -28,6 +28,10 @@
   color: white;
 }
 
+#contact {
+  text-align: center;
+}
+
 #tailwind:hover {
   color: aqua;
 }
